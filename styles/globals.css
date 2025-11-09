@@ -1,0 +1,35 @@
+:root {
+  --brand-primary: #1b263b;
+  --brand-accent: #415a77;
+  --brand-light: #e0e1dd;
+  --highlight: #ef8354;
+  color-scheme: light;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at top right, rgba(65, 90, 119, 0.18), transparent 40%),
+    radial-gradient(circle at bottom left, rgba(239, 131, 84, 0.18), transparent 45%),
+    #f6f7fb;
+  color: var(--brand-primary);
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  padding: 3rem 1.5rem 5rem;
+}
+
+button {
+  font-family: inherit;
+}
